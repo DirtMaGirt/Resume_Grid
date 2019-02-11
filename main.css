@@ -1,0 +1,80 @@
+                                                                                                                                                                        @media only screen and (max-width: 767px) {
+                                                                                                                                                                        /* phones */
+                                                                                                                                                                        #wrapper {
+                                                                                                                                                                            display: grid;
+                                                                                                                                                                            grid-template: .30fr 1fr 1fr .2fr / .75fr .25fr;
+                                                                                                                                                                            grid-template-areas: "head projects" "resume projects" "resume projects" "footer footer";
+                                                                                                                                                                            background: white;
+                                                                                                                                                                            height: 98vh;
+                                                                                                                                                                        }
+                                                                                                                                                                        #wrapper>head {
+                                                                                                                                                                            grid-area: head;
+                                                                                                                                                                            grid-column: 1 /2;
+                                                                                                                                                                            grid-row: 1/ 2;
+                                                                                                                                                                        }
+                                                                                                                                                                        #wrapper>projects {
+                                                                                                                                                                            grid-area: projects;
+                                                                                                                                                                            grid-column: 2 /3;
+                                                                                                                                                                            grid-row: 1/ span 4;
+                                                                                                                                                                        }
+                                                                                                                                                                        #wrapper>resume {
+                                                                                                                                                                            grid-area: resume;
+                                                                                                                                                                            grid-column: 2 /3;
+                                                                                                                                                                            grid-row: 2/ span 4;
+                                                                                                                                                                        }
+                                                                                                                                                                        #wrapper>footer {
+                                                                                                                                                                            grid-area: footer;
+                                                                                                                                                                            grid-column: 1 / span 3;
+                                                                                                                                                                            grid-row: 4/ 5;
+                                                                                                                                                                        }
+                                                                                                                                                                        #head {
+                                                                                                                                                                            display: grid;
+                                                                                                                                                                            grid-template: 1fr / .5fr .5fr;
+                                                                                                                                                                            grid-template-areas: "res_A res_B";
+                                                                                                                                                                        }
+                                                                                                                                                                        #head>res_A {
+                                                                                                                                                                            grid-area: res_A;
+                                                                                                                                                                            grid-column: 1 / span 3;
+                                                                                                                                                                            grid-row: 4/ 5;
+                                                                                                                                                                            background: black;
+                                                                                                                                                                        }
+                                                                                                                                                                        #head>res_B {
+                                                                                                                                                                            grid-area: res_B;
+                                                                                                                                                                            grid-column: 1 / span 3;
+                                                                                                                                                                            grid-row: 4/ 5;
+                                                                                                                                                                        }
+                                                                                                                                                                        #res_A {
+                                                                                                                                                                            border-right: 4px lightgrey solid;
+                                                                                                                                                                        }
+                                                                                                                                                                        #res_B {
+                                                                                                                                                                            border-left: 8px lightslategray solid;
+                                                                                                                                                                            margin-left: 10px;
+                                                                                                                                                                        }
+                                                                                                                                                                        #projects {
+                                                                                                                                                                            grid-column: 2 /3;
+                                                                                                                                                                            grid-row: 1/ span 4;
+                                                                                                                                                                            border: 2px solid;
+                                                                                                                                                                        }
+                                                                                                                                                                        #resume {
+                                                                                                                                                                            grid-column: 1 /2;
+                                                                                                                                                                            grid-row: 2/ span 4;
+                                                                                                                                                                            border: 2px solid black;
+                                                                                                                                                                        }
+                                                                                                                                                                        #footer {
+                                                                                                                                                                            grid-column: 1 / span 2;
+                                                                                                                                                                            grid-row: 4/ 5;
+                                                                                                                                                                            border: 2px solid black;
+                                                                                                                                                                            background: white;
+                                                                                                                                                                        }
+                                                                                                                                                                    }
+                                                                                                                                                                    
+                                                                                                                                                                    @media only screen and (min-width: 768px) {
+                                                                                                                                                                        /* tablets and desktop */
+                                                                                                                                                                    }
+                                                                                                                                                                    
+                                                                                                                                                                    @media only screen and (max-width: 767px) and (orientation: portrait) {
+                                                                                                                                                                        /* portrait phones */
+                                                                                                                                                                    }
+                                                                                                                                                                    
+                                                                                                                                                                    @media only screen and (min-width: 768px) and (orientation: portrait) {
+                                                                                                                                                                        /* tablets and desktop */
